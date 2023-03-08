@@ -1,5 +1,5 @@
 #############################
-#stack
+#IMPLEMENT OF STACK IN PYTHON
 ###############################
 import numpy as np
 stack=np.zeros(5,dtype='int16')
@@ -29,7 +29,7 @@ while True:
     elif (ch==3):
         break
 #################
-#queue
+#OMPLEMENT OF QUEUE IN PYTHON
 #################
 import numpy as np
 n=np.zeros(10,dtype=int)
@@ -58,7 +58,7 @@ while True:
     elif ch==3:
         break
  ########################
-#circuler queue
+#IMPLEMENT OF CIRCULER QUEUE
 #############################
 import numpy as np
 front=0
