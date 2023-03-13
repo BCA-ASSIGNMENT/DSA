@@ -16,4 +16,14 @@ while low <= high:
         high = mid - 1
 else:
     print("y not found")
-    
+######################################
+#IMPLEMENTATION OF SEQUENTIAL SEARCH
+######################################
+x = [2, 4, 10, 18, 20, 22, 32, 34]
+y = int(input("Enter a number: "))
+for i in range(len(x)):
+    if x[i] == y:
+        print("Found y at index", i)
+        break
+else:
+    print("y not found")
